@@ -1,5 +1,5 @@
 import speech_recognition as sr
-speak("to whom buddy")
+
 r = sr.Recognizer()
 with sr.Microphone() as source:
     print("speak something.......")             # plss speak after this statement printed in the output window 
@@ -12,7 +12,3 @@ with sr.Microphone() as source:
 
     except Exception as e:
         print("say that again please")          # if it is not able to recognize ur voice means, this will print in the output window 
-
-
-speak("hello")
-speak(query)
